@@ -1,13 +1,62 @@
-body {
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #202142;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+}
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.list-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.list-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.list-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.list-preview a {
+  text-decoration: none;
+}
+
+
+.blog-details {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background-color: #f1356d;
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
